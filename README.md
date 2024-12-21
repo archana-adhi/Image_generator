@@ -13,6 +13,13 @@ The primary goal is to explore and compare various generative models for car ima
 Evaluate the performance of diffusion models and conditional GANs.
 Generate high-quality, realistic car images based on textual inputs.
 
+
+## Repository Structure
+
+Image_generator/ │ ├── Diffusion_model/ │ ├── diffusion-model.ipynb # Training and generation script │ ├── Multi_vehicle_conditional_GAN/ │ ├── sample_images # Images dataset │ ├── multi_vehicle_GAN.ipynb # Training and generation script │ ├── Suv_sedan_conditional_GAN/ │ ├── input_sample_images # Images dataset │ ├── suv_sedan_GAN.ipynb # Training and generation script │ ├── output_images # Output images │ └── README.md # Project documentation
+
+
+
 ## Repository Structure
 
 Image_generator/
