@@ -14,6 +14,7 @@ Evaluate the performance of diffusion models and conditional GANs.
 Generate high-quality, realistic car images based on textual inputs.
 
 ## Repository Structure
+
 Image_generator/
 │
 ├── Diffusion_model/
@@ -24,8 +25,9 @@ Image_generator/
 │   ├── multi_vehicle_GAN.ipynb   # Training and generation script
 │
 ├── Suv_sedan_conditional_GAN/
-│   ├── cars_dataset.zip          # Dataset used for training and text prompts
+│   ├── input_sample_images       # Images dataset
 │   ├── suv_sedan_GAN.ipynb       # Training and generation script
+│   ├── output_images             # Output images
 │
 └── README.md                     # Project documentation
 
